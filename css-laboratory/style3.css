@@ -1,0 +1,35 @@
+/* Body	Light background, readable sans-serif font
+Main heading	32px, dark blue, centered
+Section headings	22px, dark green
+Paragraphs	16px, line height of 1.6
+List	Comfortable line spacing
+Link	A distinct color and a hover effect */
+
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+section h2{
+    font-size: 22px;
+    color: darkgreen;
+}
+section p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+ol{
+    line-height: 1.6;
+}
+a{
+    color: tan;
+    text-decoration: none;
+}
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
